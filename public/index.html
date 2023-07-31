@@ -9,6 +9,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxanium:wght@200;400;600;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../src/style.css">
     <title>Document</title>
 </head>
@@ -27,7 +30,7 @@
             </div>
         </header>
         <div class="body">
-            <div class="content-txt-title">
+            <div data-aos="fade-up" class="content-txt-title">
                 <h1 class="title-txt">
                     Build Your Awesome Platform
                 </h1>
@@ -36,7 +39,7 @@
                     will provide the best service for those of you who use our services.
                 </p>
             </div>
-            <div class="Our-Services-btn">
+            <div data-aos="fade-down" class="Our-Services-btn">
                 <button class="Services-btn" type="button">Our Services<svg width="25" height="26" viewBox="0 0 25 26"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -45,7 +48,7 @@
                     </svg>
                 </button>
             </div>
-            <div class="con-image-primary">
+            <div data-aos="fade-right" class="con-image-primary">
                 <img src="../assets/hero.svg" alt="">
             </div>
             <div class="txt-info">
@@ -54,7 +57,7 @@
                     Watch this one minute video so you understand why you should use our services!
                 </p>
             </div>
-            <div class="video" style="text-align:center">
+            <div data-aos="fade-left" class="video" style="text-align:center">
                 <div class="btn">
                     <button onclick="playPause()"><img src="../assets/Path.svg" alt=""></button>
                     <button onclick="makeBig()">Big</button>
@@ -67,12 +70,12 @@
                     <source src="../assets/3c3ac9c64c52993bf8d3fb1403a3295110463219-360p.ogg" type="video/ogg">
                 </video>
             </div>
-            <div class="services">
+            <div data-aos="zoom-in" class="services">
                 <h1 class="services-info-text">The Service We Provide For You</h1>
             </div>
             <div class="cards">
                 <div class="cards-manage-1">
-                    <div class="card-1">
+                    <div data-aos="fade-left" class="card-1">
                         <div class="title-cards-img">
                             <svg id="img-title-cards" width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +97,7 @@
                             Create a platform with the best and <br> coolest quality from us.
                         </p>
                     </div>
-                    <div class="card-2">
+                    <div data-aos="slide-up" class="card-2">
                         <div class="title-card-2-img">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +117,7 @@
                             We provide UI/UX Design services, <br> and of course with the best quality
                         </p>
                     </div>
-                    <div class="card-3">
+                    <div data-aos="flip-up" class="card-3">
                         <div class="title-card-3-img">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -137,8 +140,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="cards-manage-2">
-                    <div class="card-4">
+                <div  class="cards-manage-2">
+                    <div data-aos="flip-down" class="card-4">
                         <div class="title-card-4-img">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -160,7 +163,7 @@
                         <p class="Development-info-text">Create a platform with the best <br> and coolest quality from
                             us.</p>
                     </div>
-                    <div class="card-5">
+                    <div data-aos="flip-right" class="card-5">
                         <div class="title-card-5-img">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -183,27 +186,25 @@
                         <p class="Development-info-text">Create a platform with the best and <br> coolest quality from
                             us.</p>
                     </div>
-                    <div class="content-betwin-text">
+                    <div data-aos="flip-left" class="content-betwin-text">
                         <h1 class="title-content-part3-txt">Our Awesome Portofolio</h1>
                     </div>
                 </div>
             </div>
-            <div class="film-slider">
-                <div class="first-slide">
+            <div  class="film-slider">
+                <div data-aos="fade-up" class="first-slide">
                     <img src="../assets/image slid.svg" alt="">
                 </div>
-                <div class="slider-btn">
+                <div data-aos="fade-down" class="slider-btn">
                     <div class="left-btn">
-                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M13.8249 16.4567C14.1684 16.1132 14.1684 15.5562 13.8249 15.2126L9.16869 10.5564L13.8249 5.90026C14.1684 5.55672 14.1684 4.99972 13.8249 4.65617C13.4813 4.31263 12.9243 4.31263 12.5808 4.65617L7.30256 9.93439C6.95901 10.2779 6.95901 10.8349 7.30256 11.1785L12.5808 16.4567C12.9243 16.8002 13.4813 16.8002 13.8249 16.4567Z"
                                 fill="white" />
                         </svg>
                     </div>
                     <div class="right-btn">
-                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M9.66122 18.85C9.26853 18.4573 9.26853 17.8206 9.66122 17.4279L14.9835 12.1056L9.66122 6.78334C9.26853 6.39065 9.26853 5.75397 9.66122 5.36127C10.0539 4.96858 10.6906 4.96858 11.0833 5.36127L17.1166 11.3946C17.5093 11.7873 17.5093 12.424 17.1166 12.8167L11.0833 18.85C10.6906 19.2427 10.0539 19.2427 9.66122 18.85Z"
                                 fill="white" />
@@ -211,16 +212,16 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-text-btn">
+            <div data-aos="fade-right" class="footer-text-btn">
                 <h1 class="footer-text">Contact us for the service you want to use</h1>
                 <button type="button" class="footer-btn">Contact us</button>
             </div>
-            <div class="footer">
+            <div data-aos="fade-left" class="footer">
                 <div class="footer-title">
                     <img src="../assets/Logo Icon 1.svg" alt="">
                     <h1 class="footer-text-title">Enver</h1>
                 </div>
-                <div class="footer-adress">
+                <div data-aos="zoom-in" class="footer-adress">
                     <p class="text-adress">Support</p>
                     <p class="text-adress">Privacy Policy</p>
                     <p class="text-adress">Terms and Conditions</p>
@@ -232,5 +233,13 @@
 </body>
 
 <script src="../src/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    AOS.init({
+        duration: 1200,
+    })
+</script>
 
 </html>
